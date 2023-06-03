@@ -1,6 +1,8 @@
 # PreEntrega1-Rios
-Live:
-Repo:
+
+Live: https://curious-youtiao-4d8d05.netlify.app/
+
+Repo: https://github.com/cristiandjr/PreEntrega1-Rios
 
 # Consigna
 - Crea una carpeta dentro de src llamada components que contenga la implementación del componente NavBar dentro del archivo NavBar.js. Su funcionalidad es la de renderizar una barra de menú (Navbar).
