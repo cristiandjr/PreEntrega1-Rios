@@ -17,6 +17,6 @@ Crea un componente contenedor ItemListContainer.js con una prop greeting, y mues
 
 # Instalación:
 
-1) Clona el repositorio en tu escritorio o en el directorio que desees utilizando el siguiente comando: git clone ```https://github.com/cristiandjr/PreEntrega1-Rios.git```
+1) Clona el repositorio en tu escritorio o en el directorio que desees utilizando el siguiente comando: ```git clone https://github.com/cristiandjr/PreEntrega1-Rios.git```
 2) Ingresa al directorio del repositorio clonado. Abre una terminal dentro del repositorio clonado y ejecuta el siguiente comando para instalar las dependencias: ```npm install```
 3) Para ejecutar CoderMmerce, seguir dentro del respositorio clonado con la terminal y utilizar el siguiente comando: ```npm run dev```. Siga las instruciones de la terminal
