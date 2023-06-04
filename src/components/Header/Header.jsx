@@ -2,17 +2,17 @@ import Hero from "../../assets/img/hero.jpg";
 
 const Header = () => {
   return (
-    <div className="relative bg-blue-500 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="relative py-12 px-4 sm:px-6 lg:px-8">
       <div className="absolute inset-0">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover filter blur"
           src={Hero}
           alt="Imagen de hero"
         />
       </div>
       <div className="max-w-7xl mx-auto relative text-center">
         <h1 className="text-4xl font-extrabold text-black">
-          ¡Bienvenid@ a CoderMmerce nuestra tienda en línea!
+          ¡Bienvenid@ a <span className="text-orange-500">C</span>oder<span className="text-orange-500">M</span>merce nuestra tienda en línea!
         </h1>
         <p className="mt-4 text-lg text-black">
         ¡Encuentra los mejores productos para todas tus necesidades!
