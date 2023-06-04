@@ -9,11 +9,13 @@ const NavBar = () => {
   return (
     <nav className="flex bg-gray-300 items-center justify-between flex-wrap p-2">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-        <img
-          src={LogoCoderMmerce}
-          className="w-32 h-auto"
-          alt="Logo CoderMmerce"
-        />
+        <a href="#">
+          <img
+            src={LogoCoderMmerce}
+            className="w-32 h-auto"
+            alt="Logo CoderMmerce"
+          />
+        </a>
       </div>
       <div className="block lg:hidden">
         <button
