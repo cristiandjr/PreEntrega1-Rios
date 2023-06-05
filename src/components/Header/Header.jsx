@@ -14,13 +14,13 @@ const Header = () => {
         <h1 className="text-4xl font-extrabold text-black">
           ¡Bienvenid@ a <span className="text-orange-500">C</span>oder<span className="text-orange-500">M</span>merce nuestra tienda en línea!
         </h1>
-        <p className="mt-4 text-lg text-black">
-        ¡Encuentra los mejores productos para todas tus necesidades!
+        <p className="mt-4 text-lg text-black font-extrabold">
+        ¡Encontra los mejores productos para todas tus necesidades!
         </p>
         <div className="mt-6">
           <a
             href="#"
-            className="inline-block bg-gray-300 py-3 px-8 rounded-full text-lg font-semibold shadow-lg hover:bg-orange-200 transition-colors duration-300"
+            className="inline-block bg-orange-500 py-3 px-8 rounded-full text-lg font-semibold shadow-lg hover:bg-orange-300 transition-colors duration-300"
           >
             🛒 Explorar
           </a>

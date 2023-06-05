@@ -3,7 +3,7 @@ import AnteojoProducto from "../../assets/img/products/anteojo.png";
 
 const ItemListContainer = ({ greeting }) => {
   return (
-    <div className="flex-shrink-0 relative overflow-hidden bg-orange-600 rounded-lg max-w-xs shadow-lg">
+    <div className="flex-shrink-0 relative overflow-hidden bg-orange-300 rounded-lg max-w-xs shadow-lg">
       <svg
         className="absolute bottom-0 left-0 mb-8"
         viewBox="0 0 375 283"
@@ -41,11 +41,17 @@ const ItemListContainer = ({ greeting }) => {
       </div>
       <div className="relative text-white px-6 pb-6 mt-6">
         <span className="block opacity-75 -mb-1">Anteojos</span>
-        <div className="flex justify-between">
+        <div className="block">
           <span className="block font-semibold text-xl">{greeting}</span>
-          <span className="bg-white rounded-full text-black text-xs font-bold px-3 py-2 leading-none flex items-end h-6 w-20">
+          <div className="mt-5 flex justify-between flex-wrap">
+          <span className="bg-white rounded-full text-black text-xs font-bold px-3 py-2 leading-none flex items-end h-6 w-auto">
             $36.000
           </span>
+          <span className="bg-white rounded-full text-black text-xs font-bold px-3 py-2 leading-none flex items-end h-6 w-auto">
+            🛒 Comprar
+          </span>
+        </div>
+          
         </div>
       </div>
     </div>
